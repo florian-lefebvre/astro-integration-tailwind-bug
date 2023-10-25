@@ -1,0 +1,15 @@
+{
+  "name": "integration",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./tailwind": "./tailwind.ts",
+    "./pages/index.astro": "./pages/index.astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.0.2",
+    "astro": "^3.3.2",
+    "tailwindcss": "^3.3.3"
+  }
+}
